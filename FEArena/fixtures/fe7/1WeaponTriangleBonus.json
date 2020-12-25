@@ -1,0 +1,56 @@
+[
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "E",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  },
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "D",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  },
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "C",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  },
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "B",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  },
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "A",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  },
+  {
+    "model": "feaapi.WeaponTriangleBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "S",
+      "atk_bonus": 1,
+      "hit_bonus": 15
+    }
+  }
+]

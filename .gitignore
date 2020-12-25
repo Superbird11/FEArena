@@ -1,0 +1,7 @@
+venv
+**/__pycache__
+**/.DS_Store
+
+FEArena/db.sqlite3
+FEArena/feaapi/migrations
+FEArena/FEArena/secret_data.json

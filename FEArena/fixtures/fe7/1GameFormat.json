@@ -1,0 +1,20 @@
+[
+   {
+    "model": "feaapi.GameFormat",
+    "pk": "FE7 Points",
+    "fields": {
+      "game": "FE7",
+      "validated": true,
+      "victory": "Points"
+    }
+  },
+  {
+    "model": "feaapi.GameFormat",
+    "pk": "FE7 Survival",
+    "fields": {
+      "game": "FE7",
+      "validated": true,
+      "victory": "Survival"
+    }
+  }
+]

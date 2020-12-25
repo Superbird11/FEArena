@@ -1,0 +1,72 @@
+[
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Sword",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Axe",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Lance",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Bow",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Anima",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Dark",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankBonus",
+    "fields": {
+      "game": "FE7",
+      "weapon_type": "Light",
+      "weapon_rank": "S",
+      "hit_bonus": 5,
+      "crit_bonus": 5
+    }
+  }
+]

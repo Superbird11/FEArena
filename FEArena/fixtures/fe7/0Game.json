@@ -1,0 +1,43 @@
+[
+  {
+    "model": "feaapi.FireEmblemGame",
+    "pk": "FE7",
+    "fields": {
+      "name": "Fire Emblem (GBA)",
+      "index": 7,
+      "on_weapon_break": "R",
+      "attack_speed_method": "Spd-(Wt-Con)",
+      "follow_up_criteria": 4,
+      "crit_damage": "DMG*3",
+      "hit_method": "Skl*2+Hit+Luk/2+Rank",
+      "staff_hit_method": "Mag*5+Skl+30",
+      "avoid_method": "AS*2+Luk",
+      "crit_method": "Crit+Skl/2+Rank",
+      "crit_avoid_method": "Luk",
+      "attack_method": "Str+Mt+WT",
+      "weapon_triangle": "Anima<Light<Dark",
+      "attack_effective_method": "Mt+WT",
+      "attack_effective_mod": 2,
+      "class_change_behavior": "RESET",
+      "promotion_behavior": "RESET",
+      "promotion_bonuses": "Separate",
+      "max_weapon_rank": "S",
+      "mutually_exclusive_max_weapon_rank": true,
+      "class_change_allowed": false,
+      "exp_method": "FE6",
+      "rng_method": "2RN",
+      "magic_ignores_terrain": false,
+      "has_mag_stat": true,
+      "weapon_triangle_suppresses_rank": false,
+      "use_mag_as_res": false,
+      "min_damage_per_attack": 0,
+      "max_inventory_size": 5,
+      "max_inventory_weapons": 5,
+      "max_inventory_items": 5,
+      "extra_skills_limit": "None",
+      "extra_skills_quantity_limit": 0,
+      "team_size": 5,
+      "max_support_rank": 3
+    }
+  }
+]

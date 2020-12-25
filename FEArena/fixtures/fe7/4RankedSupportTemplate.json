@@ -1,0 +1,242 @@
+[
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 753,
+      "default_rank": 3
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 752,
+      "default_rank": 3
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 708,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 708,
+      "supported_by": 752,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 727,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 727,
+      "supported_by": 752,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 737,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 737,
+      "supported_by": 752,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 747,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 747,
+      "supported_by": 752,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 752,
+      "supported_by": 739,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 739,
+      "supported_by": 752,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 708,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 727,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 747,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 717,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 724,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 725,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 744,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 745,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 753,
+      "supported_by": 732,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 708,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 727,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 747,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 717,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 724,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 725,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 744,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 745,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  },
+  {
+    "model": "feaapi.RankedSupportTemplate",
+    "fields": {
+      "unit": 732,
+      "supported_by": 753,
+      "max_rank": 2
+    }
+  }
+]

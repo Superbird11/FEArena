@@ -1,0 +1,92 @@
+[
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 700,
+    "fields": {
+      "game": "FE7",
+      "name": "Lyn Mode",
+      "mutually_exclusive": []
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 701,
+    "fields": {
+      "game": "FE7",
+      "name": "Eliwood Mode",
+      "mutually_exclusive": []
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 702,
+    "fields": {
+      "game": "FE7",
+      "name": "Normal Mode",
+      "mutually_exclusive": [703]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 703,
+    "fields": {
+      "game": "FE7",
+      "name": "Hard Mode",
+      "mutually_exclusive": [702, 711]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 711,
+    "fields": {
+      "game": "FE7",
+      "name": "A (Normal Mode)",
+      "mutually_exclusive": [703, 712, 711]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 712,
+    "fields": {
+      "game": "FE7",
+      "name": "A (Hard Mode)",
+      "mutually_exclusive": [702, 711, 713]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 713,
+    "fields": {
+      "game": "FE7",
+      "name": "B",
+      "mutually_exclusive": [711, 712]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 721,
+    "fields": {
+      "game": "FE7",
+      "name": "Karel",
+      "mutually_exclusive": [722, 723]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 722,
+    "fields": {
+      "game": "FE7",
+      "name": "Harken (Normal Mode)",
+      "mutually_exclusive": [703, 712, 721, 723]
+    }
+  },
+  {
+    "model": "feaapi.FireEmblemGameRoute",
+    "pk": 723,
+    "fields": {
+      "game": "FE7",
+      "name": "Harken (Hard Mode)",
+      "mutually_exclusive": [702, 711, 721, 722]
+    }
+  }
+]

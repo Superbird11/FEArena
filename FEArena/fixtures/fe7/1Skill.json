@@ -1,0 +1,442 @@
+[
+  {
+    "model": "feaapi.Skill",
+    "pk": 1,
+    "fields": {
+      "game": "FE7",
+      "name": "Anti-Flying-Weakness Temporary Skill",
+      "description": "A temporary skill that nullifies weapons that deal effective damage against fliers",
+      "invisible": true
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 2,
+    "fields": {
+      "game": "FE7",
+      "name": "Anti-Cavalry-Weakness Temporary Skill",
+      "description": "A temporary skill that nullifies weapons that deal effective damage against cavalry",
+      "invisible": true
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 3,
+    "fields": {
+      "game": "FE7",
+      "name": "Anti-Armored-Weakness Temporary Skill",
+      "description": "A temporary skill that nullifies weapons that deal effective damage against armored units",
+      "invisible": true
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 4,
+    "fields": {
+      "game": "FE7",
+      "name": "Anti-Dragon-Weakness Temporary Skill",
+      "description": "A temporary skill that nullifies weapons that deal effective damage against wyverns",
+      "invisible": true
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 5,
+    "fields": {
+      "game": "FE7",
+      "name": "Anti-Wyvern-Weakness Temporary Skill",
+      "description": "A temporary skill that nullifies weapons that deal effective damage against wyverns",
+      "invisible": true
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 11,
+    "fields": {
+      "game": "FE7",
+      "name": "Flying Effectiveness",
+      "description": "Deals bonus damage against flying units",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "effective_flying"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 12,
+    "fields": {
+      "game": "FE7",
+      "name": "Cavalry Effectiveness",
+      "description": "Deals bonus damage against cavalry units",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "effective_cavalry"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 13,
+    "fields": {
+      "game": "FE7",
+      "name": "Armored Effectiveness",
+      "description": "Deals bonus damage against armored units",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "effective_armored"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 14,
+    "fields": {
+      "game": "FE7",
+      "name": "Dragon Effectiveness",
+      "description": "Deals bonus damage against dragons",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "effective_dragons"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 15,
+    "fields": {
+      "game": "FE7",
+      "name": "Wyvern Effectiveness",
+      "description": "Deals bonus damage against wyvern units",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "effective_wyvern"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 20,
+    "fields": {
+      "game": "FE7",
+      "name": "Brave",
+      "description": "This weapon attacks twice, every time it would attack normally",
+      "invisible": true,
+      "priority": 50,
+      "before_attack_effect": "brave"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 31,
+    "fields": {
+      "game": "FE7",
+      "name": "Dance",
+      "description": "Allows a single other unit to move again in a skirmish",
+      "invisible": false,
+      "on_use_effect": "dance_single"
+    }
+  },
+
+
+  {
+    "model": "feaapi.Skill",
+    "pk": 701,
+    "fields": {
+      "game": "FE7",
+      "name": "Poisoned",
+      "description": "Unit takes a bit of damage at the beginning of each turn",
+      "invisible": false,
+      "turn_start_effect": "fe7_poisoned"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 702,
+    "fields": {
+      "game": "FE7",
+      "name": "Poisonous",
+      "description": "Inflicts the Poisoned status on hit",
+      "invisible": true,
+      "after_attack_effect": "fe7_poison_on_hit"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 703,
+    "fields": {
+      "game": "FE7",
+      "name": "Delphi Shield",
+      "description": "Negates bonus damage against fliers, if the unit is one",
+      "invisible": true,
+      "passive_effect": "delphi_shield"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 704,
+    "fields": {
+      "game": "FE7",
+      "name": "Iron Rune",
+      "description": "Prevents the unit from receiving critical hits",
+      "invisible": true,
+      "priority": 10,
+      "before_combat_effect": "iron_rune"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 705,
+    "fields": {
+      "game": "FE7",
+      "name": "Swordslayer",
+      "description": "Deals bonus damage against sword-wielding units",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "fe7_swordslayer"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 706,
+    "fields": {
+      "game": "FE7",
+      "name": "Dark Druid Effectiveness",
+      "description": "Deals bonus damage against Dark Druids",
+      "invisible": true,
+      "priority": 90,
+      "before_combat_effect": "fe7_dark_druids"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 707,
+    "fields": {
+      "game": "FE7",
+      "name": "Reverse Weapon Triangle",
+      "description": "Reverses the effects of the weapon triangle on combat, for both sides",
+      "invisible": true,
+      "priority": 95,
+      "before_combat_effect": "reverse_weapon_triangle"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 708,
+    "fields": {
+      "game": "FE7",
+      "name": "Myrms Only",
+      "description": "Weapon is only equippable by Myrmidons",
+      "invisible": true,
+      "on_equip_effect": "fe7_myrms_only"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 709,
+    "fields": {
+      "game": "FE7",
+      "name": "Light Brand",
+      "description": "Uses half-Str Res-based Light attack when used from more than 1-range",
+      "invisible": true,
+      "priority": 100,
+      "before_combat_effect": "fe7_light_brand",
+      "after_combat_effect": "fe7_light_brand"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 710,
+    "fields": {
+      "game": "FE7",
+      "name": "Wind Edge",
+      "description": "Uses half-Str Res-based Anima/Wind attack when used from more than 1-range",
+      "invisible": true,
+      "priority": 100,
+      "before_combat_effect": "fe7_wind_edge",
+      "after_combat_effect": "fe7_wind_edge"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 711,
+    "fields": {
+      "game": "FE7",
+      "name": "Runesword",
+      "description": "Uses half-Str Res-based Light attack when used from more than 1-range",
+      "invisible": true,
+      "priority": 100,
+      "before_combat_effect": "fe7_runesword",
+      "after_combat_effect": "fe7_runesword"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 712,
+    "fields": {
+      "game": "FE7",
+      "name": "Devil Axe",
+      "description": "Has a (31 - Luk)% chance to backfire",
+      "invisible": true,
+      "before_attack_effect": "fe7_devil"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 713,
+    "fields": {
+      "game": "FE7",
+      "name": "Silencer",
+      "description": "If the unit crits, has a 50% chance to kill the enemy",
+      "invisible": true,
+      "priority": 5,
+      "before_attack_effect": "fe7_silencer",
+      "after_combat_effect": "fe7_silencer"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 714,
+    "fields": {
+      "game": "FE7",
+      "name": "Steal",
+      "description": "If unit's Spd exceeds opponent's, steal an item from their inventory",
+      "invisible": false,
+      "on_use_effect": "fe7_steal"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 715,
+    "fields": {
+      "game": "FE7",
+      "name": "Play",
+      "description": "Allows a single other unit to move again in a skirmish",
+      "invisible": false,
+      "on_use_effect": "dance_single"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 716,
+    "fields": {
+      "game": "FE7",
+      "name": "Siege Weapon",
+      "description": "An attack from a distance that can't be countered - but the user can't counter either",
+      "invisible": true,
+      "before_combat_effect": "fe7_siege_weapon"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 720,
+    "fields": {
+      "game": "FE7",
+      "name": "Crit+15",
+      "description": "Grants Crit +15",
+      "invisible": true,
+      "before_combat_effect": "crit+15"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 721,
+    "fields": {
+      "game": "FE7",
+      "name": "Str+5",
+      "description": "Grants Str + 5",
+      "invisible": true,
+      "on_equip_effect": "str+5",
+      "on_dequip_effect": "str+5"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 722,
+    "fields": {
+      "game": "FE7",
+      "name": "Def+5",
+      "description": "Grants Def + 5",
+      "invisible": true,
+      "on_equip_effect": "def+5",
+      "on_dequip_effect": "def+5"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 723,
+    "fields": {
+      "game": "FE7",
+      "name": "Res+5",
+      "description": "Grants Res + 5",
+      "invisible": true,
+      "on_equip_effect": "res+5",
+      "on_dequip_effect": "res+5"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 724,
+    "fields": {
+      "game": "FE7",
+      "name": "Luk+5",
+      "description": "Grants Luck + 5",
+      "invisible": true,
+      "on_equip_effect": "luk+5",
+      "on_dequip_effect": "luk+5"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 728,
+    "fields": {
+      "game": "FE7",
+      "name": "Uber Spear",
+      "description": "Grants Max HP +17, Str +5, Skl +4, Spd +9, Def +4, Res +14",
+      "invisible": true,
+      "on_equip_effect": "fe7_uber_spear",
+      "on_dequip_effect": "fe7_uber_spear"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 729,
+    "fields": {
+      "game": "FE7",
+      "name": "Afa's Drops",
+      "description": "Grants +5% to all of the user's growths",
+      "invisible": true,
+      "build_effect": "growths+5"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 730,
+    "fields": {
+      "game": "FE7",
+      "name": "Nosferatu",
+      "description": "Restores health equal to damage dealt",
+      "invisible": true,
+      "after_attack_effect": "fe7_nosferatu"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 731,
+    "fields": {
+      "game": "FE7",
+      "name": "Luna",
+      "description": "Ignores enemy Res",
+      "invisible": true,
+      "priority": 0,
+      "before_combat_effect": "fe7_luna"
+    }
+  },
+  {
+    "model": "feaapi.Skill",
+    "pk": 732,
+    "fields": {
+      "game": "FE7",
+      "name": "Eclipse",
+      "description": "Fixed damage - deals half of enemy HP, rounded up",
+      "invisible": true,
+      "priority": -20,
+      "before_combat_effect": "fe7_eclipse"
+    }
+  }
+]

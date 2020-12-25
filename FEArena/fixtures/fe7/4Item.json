@@ -1,0 +1,30 @@
+[
+  {
+    "model": "feaapi.Item",
+    "pk": 701,
+    "fields": {
+      "name": "Iron Rune",
+      "game": "FE7",
+      "description": "Negates enemy\ncritical attacks",
+      "wt": 0,
+      "uses": -1,
+      "usable": false,
+      "equippable": false,
+      "item_effects": [704]
+    }
+  },
+  {
+    "model": "feaapi.Item",
+    "pk": 702,
+    "fields": {
+      "name": "Delphi Shield",
+      "game": "FE7",
+      "description": "Protects airborne\nunits from bows.",
+      "wt": 0,
+      "uses": -1,
+      "usable": false,
+      "equippable": false,
+      "item_effects": [1]
+    }
+  }
+]

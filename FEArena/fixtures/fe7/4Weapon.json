@@ -1,0 +1,1866 @@
+[
+  {
+    "model": "feaapi.Weapon",
+    "pk": 701,
+    "fields": {
+      "name": "Iron Sword",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "E",
+      "mt": 5,
+      "wt": 5,
+      "hit": 90,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 46
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 702,
+    "fields": {
+      "name": "Slim Sword",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "E",
+      "mt": 3,
+      "wt": 2,
+      "hit": 100,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 703,
+    "fields": {
+      "name": "Emblem Blade",
+      "game": "FE7",
+      "description": "A tactician's sword.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "E",
+      "mt": 5,
+      "wt": 5,
+      "hit": 90,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 60
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 704,
+    "fields": {
+      "name": "Poison Sword",
+      "game": "FE7",
+      "description": "Coated in lethal poison.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "mt": 3,
+      "wt": 6,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 40,
+      "weapon_effects": [702]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 705,
+    "fields": {
+      "name": "Steel Sword",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "wt": 10,
+      "mt": 8,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 706,
+    "fields": {
+      "name": "Iron Blade",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "wt": 12,
+      "mt": 9,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 35
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 707,
+    "fields": {
+      "name": "Armorslayer",
+      "game": "FE7",
+      "description": "Effective against infantry.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "wt": 11,
+      "mt": 8,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 18,
+      "weapon_effects": [13]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 708,
+    "fields": {
+      "name": "Longsword",
+      "game": "FE7",
+      "description": "Effective against cavalry.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "wt": 11,
+      "mt": 6,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 18,
+      "weapon_effects": [12]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 709,
+    "fields": {
+      "name": "Wo Dao",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "D",
+      "wt": 5,
+      "mt": 8,
+      "hit": 75,
+      "crit": 35,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20,
+      "weapon_effects": [708]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 710,
+    "fields": {
+      "name": "Steel Blade",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 14,
+      "mt": 11,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 711,
+    "fields": {
+      "name": "Killing Edge",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 7,
+      "mt": 9,
+      "hit": 75,
+      "crit": 30,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 712,
+    "fields": {
+      "name": "Wyrmslayer",
+      "game": "FE7",
+      "description": "Effective against Wyverns",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 5,
+      "mt": 7,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 15,
+      "weapon_effects": [14, 15]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 713,
+    "fields": {
+      "name": "Light Brand",
+      "game": "FE7",
+      "description": "Suffused with light magic.",
+      "damage_type": "Magical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 9,
+      "mt": 9,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25,
+      "weapon_effects": [709]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 714,
+    "fields": {
+      "name": "Light Brand",
+      "game": "FE7",
+      "description": "Suffused with light magic.",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "Prf",
+      "wt": 9,
+      "mt": 9,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25,
+      "weapon_effects": [709]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 715,
+    "fields": {
+      "name": "Lancereaver",
+      "game": "FE7",
+      "description": "Strong against spears.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 9,
+      "mt": 9,
+      "hit": 80,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 15,
+      "weapon_effects": [707]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 716,
+    "fields": {
+      "name": "Brave Sword",
+      "game": "FE7",
+      "description": "Can strike consecutively.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "B",
+      "wt": 12,
+      "mt": 9,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30,
+      "weapon_effects": [20]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 717,
+    "fields": {
+      "name": "Wind Edge",
+      "game": "FE7",
+      "description": "A long-range magic sword.",
+      "damage_type": "Magical",
+      "weapon_type": "Sword",
+      "rank": "C",
+      "wt": 14,
+      "mt": 11,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25,
+      "weapon_effects": [710, 711]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 718,
+    "fields": {
+      "name": "Wind Edge",
+      "game": "FE7",
+      "description": "A long-range magic sword.",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "Prf",
+      "wt": 14,
+      "mt": 11,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25,
+      "weapon_effects": [710, 711]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 719,
+    "fields": {
+      "name": "Silver Sword",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "A",
+      "wt": 8,
+      "mt": 13,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 720,
+    "fields": {
+      "name": "Silver Blade",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "A",
+      "wt": 13,
+      "mt": 14,
+      "hit": 55,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 15
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 721,
+    "fields": {
+      "name": "Runesword",
+      "game": "FE7",
+      "description": "Imbued with dark magic.",
+      "damage_type": "Magical",
+      "weapon_type": "Sword",
+      "rank": "A",
+      "wt": 11,
+      "mt": 12,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 15,
+      "weapon_effects": [711, 730]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 722,
+    "fields": {
+      "name": "Runesword",
+      "game": "FE7",
+      "description": "Imbued with dark magic.",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "Prf",
+      "wt": 11,
+      "mt": 12,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 15,
+      "weapon_effects": [711, 730]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 723,
+    "fields": {
+      "name": "Regal Blade",
+      "game": "FE7",
+      "description": "For experienced units only.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "S",
+      "wt": 9,
+      "mt": 20,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 724,
+    "fields": {
+      "name": "Rapier",
+      "game": "FE7",
+      "description": "Effective against infantry.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "Prf",
+      "wt": 5,
+      "mt": 7,
+      "hit": 95,
+      "crit": 10,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 40,
+      "weapon_effects": [12, 13],
+      "prf_users": [714]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 725,
+    "fields": {
+      "name": "Mani Katti",
+      "game": "FE7",
+      "description": "Effective against infantry.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "Prf",
+      "wt": 3,
+      "mt": 8,
+      "hit": 80,
+      "crit": 20,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 45,
+      "weapon_effects": [12, 13],
+      "prf_users": [701, 729]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 726,
+    "fields": {
+      "name": "Durandal",
+      "game": "FE7",
+      "description": "Increases strength by 5 pts.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "Prf",
+      "wt": 16,
+      "mt": 17,
+      "hit": 90,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20,
+      "weapon_effects": [14, 15, 721],
+      "prf_users": [714]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 727,
+    "fields": {
+      "name": "Sol Katti",
+      "game": "FE7",
+      "description": "Forged to battle wyverns.",
+      "damage_type": "Physical",
+      "weapon_type": "Sword",
+      "rank": "Prf",
+      "wt": 14,
+      "mt": 12,
+      "hit": 95,
+      "crit": 25,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30,
+      "weapon_effects": [14, 15, 723],
+      "prf_users": [701, 729]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 728,
+    "fields": {
+      "name": "Iron Lance",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "E",
+      "wt": 8,
+      "mt": 7,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 45
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 729,
+    "fields": {
+      "name": "Slim Lance",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "E",
+      "wt": 4,
+      "mt": 4,
+      "hit": 85,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 730,
+    "fields": {
+      "name": "Javelin",
+      "game": "FE7",
+      "description": "Doubles as ranged attack.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "E",
+      "wt": 11,
+      "mt": 6,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 731,
+    "fields": {
+      "name": "Emblem Lance",
+      "game": "FE7",
+      "description": "A tactician's lance.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "E",
+      "wt": 8,
+      "mt": 7,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 60
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 732,
+    "fields": {
+      "name": "Poison Lance",
+      "game": "FE7",
+      "description": "Coated in lethal poison.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "E",
+      "wt": 8,
+      "mt": 4,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 40,
+      "weapon_effects": [702]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 733,
+    "fields": {
+      "name": "Steel Lance",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "D",
+      "wt": 13,
+      "mt": 10,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 734,
+    "fields": {
+      "name": "Heavy Spear",
+      "game": "FE7",
+      "description": "Effective against knights.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "D",
+      "wt": 14,
+      "mt": 9,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 16,
+      "weapon_effects": [13]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 735,
+    "fields": {
+      "name": "Horseslayer",
+      "game": "FE7",
+      "description": "Effective against cavalry.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "D",
+      "wt": 13,
+      "mt": 7,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 16,
+      "weapon_effects": [12]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 736,
+    "fields": {
+      "name": "Short Spear",
+      "game": "FE7",
+      "description": "Doubles as ranged attack.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "C",
+      "wt": 12,
+      "mt": 9,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 18
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 737,
+    "fields": {
+      "name": "Killer Lance",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "C",
+      "wt": 9,
+      "mt": 10,
+      "hit": 70,
+      "crit": 30,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 738,
+    "fields": {
+      "name": "Axereaver",
+      "game": "FE7",
+      "description": "Strong against axes.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "C",
+      "wt": 11,
+      "mt": 10,
+      "hit": 70,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 15,
+      "weapon_effects": [707]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 739,
+    "fields": {
+      "name": "Brave Lance",
+      "game": "FE7",
+      "description": "Can strike consecutively.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "B",
+      "wt": 14,
+      "mt": 10,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30,
+      "weapon_effects": [20]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 740,
+    "fields": {
+      "name": "Spear",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "B",
+      "wt": 10,
+      "mt": 12,
+      "hit": 70,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 15
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 741,
+    "fields": {
+      "name": "Spear",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "B",
+      "wt": 10,
+      "mt": 12,
+      "hit": 70,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 15,
+      "weapon_effects": [728]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 742,
+    "fields": {
+      "name": "Silver Lance",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "A",
+      "wt": 10,
+      "mt": 14,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 743,
+    "fields": {
+      "name": "Rex Hasta",
+      "game": "FE7",
+      "description": "For experienced units only.",
+      "damage_type": "Physical",
+      "weapon_type": "Lance",
+      "rank": "S",
+      "wt": 11,
+      "mt": 21,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 744,
+    "fields": {
+      "name": "Iron Axe",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "E",
+      "wt": 10,
+      "mt": 8,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 45
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 745,
+    "fields": {
+      "name": "Hand Axe",
+      "game": "FE7",
+      "description": "Doubles as ranged attack.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "E",
+      "wt": 12,
+      "mt": 7,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 746,
+    "fields": {
+      "name": "Emblem Axe",
+      "game": "FE7",
+      "description": "A tactician's axe.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "E",
+      "wt": 10,
+      "mt": 8,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 60
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 747,
+    "fields": {
+      "name": "Steel Axe",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "E",
+      "wt": 15,
+      "mt": 11,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 748,
+    "fields": {
+      "name": "Devil Axe",
+      "game": "FE7",
+      "description": "Might injure its wielder",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "E",
+      "wt": 18,
+      "mt": 18,
+      "hit": 55,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20,
+      "weapon_effects": [712]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 749,
+    "fields": {
+      "name": "Poison Axe",
+      "game": "FE7",
+      "description": "Coated in lethal poison.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "D",
+      "wt": 10,
+      "mt": 4,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 40,
+      "weapon_effects": [702]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 750,
+    "fields": {
+      "name": "Halberd",
+      "game": "FE7",
+      "description": "Effective against cavalry.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "D",
+      "wt": 15,
+      "mt": 10,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 18,
+      "weapon_effects": [12]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 751,
+    "fields": {
+      "name": "Hammer",
+      "game": "FE7",
+      "description": "Effective against knights.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "D",
+      "wt": 15,
+      "mt": 10,
+      "hit": 55,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20,
+      "weapon_effects": [13]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 752,
+    "fields": {
+      "name": "Dragon Axe",
+      "game": "FE7",
+      "description": "A wyvern-slaying axe.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "C",
+      "wt": 11,
+      "mt": 10,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 40,
+      "weapon_effects": [14, 15]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 753,
+    "fields": {
+      "name": "Killer Axe",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "C",
+      "wt": 11,
+      "mt": 11,
+      "hit": 65,
+      "crit": 30,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 754,
+    "fields": {
+      "name": "Swordreaver",
+      "game": "FE7",
+      "description": "Strong against swords.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "C",
+      "wt": 13,
+      "mt": 11,
+      "hit": 65,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 15,
+      "weapon_effects": [707]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 755,
+    "fields": {
+      "name": "Swordslayer",
+      "game": "FE7",
+      "description": "Good against myrmidons.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "C",
+      "wt": 13,
+      "mt": 11,
+      "hit": 80,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20,
+      "weapon_effects": [705, 707]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 756,
+    "fields": {
+      "name": "Brave Axe",
+      "game": "FE7",
+      "description": "Can strike consecutively.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "B",
+      "wt": 16,
+      "mt": 10,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30,
+      "weapon_effects": [20]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 757,
+    "fields": {
+      "name": "Tomahawk",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "A",
+      "wt": 14,
+      "mt": 13,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 15
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 758,
+    "fields": {
+      "name": "Silver Axe",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "A",
+      "wt": 12,
+      "mt": 15,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 759,
+    "fields": {
+      "name": "Basilikos",
+      "game": "FE7",
+      "description": "For experienced units ony.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "S",
+      "wt": 13,
+      "mt": 22,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 760,
+    "fields": {
+      "name": "Wolf Beil",
+      "game": "FE7",
+      "description": "Effective against infantry.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "Prf",
+      "wt": 10,
+      "mt": 10,
+      "hit": 75,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 30,
+      "prf_users": [720]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 761,
+    "fields": {
+      "name": "Armads",
+      "game": "FE7",
+      "description": "Lightning-charged axe.",
+      "damage_type": "Physical",
+      "weapon_type": "Axe",
+      "rank": "Prf",
+      "wt": 18,
+      "mt": 18,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "uses": 25,
+      "prf_users": [720],
+      "weapon_effects": [14, 15, 722]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 762,
+    "fields": {
+      "name": "Iron Bow",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "E",
+      "wt": 5,
+      "mt": 6,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 45,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 763,
+    "fields": {
+      "name": "Emblem Bow",
+      "game": "FE7",
+      "description": "A tactician's bow.",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "E",
+      "wt": 5,
+      "mt": 6,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 60,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 764,
+    "fields": {
+      "name": "Ballista",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "E",
+      "wt": 20,
+      "mt": 8,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 3,
+      "max_range": 10,
+      "uses": 5,
+      "weapon_effects": [11, 716]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 765,
+    "fields": {
+      "name": "Killer Ballista",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "E",
+      "wt": 20,
+      "mt": 12,
+      "hit": 65,
+      "crit": 10,
+      "min_range": 3,
+      "max_range": 10,
+      "uses": 5,
+      "weapon_effects": [11, 716]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 766,
+    "fields": {
+      "name": "Iron Ballista",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "E",
+      "wt": 20,
+      "mt": 13,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 3,
+      "max_range": 15,
+      "uses": 5,
+      "weapon_effects": [11, 716]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 767,
+    "fields": {
+      "name": "Poison Bow",
+      "game": "FE7",
+      "description": "Coated in lethal poison.",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "D",
+      "wt": 5,
+      "mt": 4,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 40,
+      "weapon_effects": [11, 702]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 768,
+    "fields": {
+      "name": "Short Bow",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "D",
+      "wt": 3,
+      "mt": 5,
+      "hit": 85,
+      "crit": 10,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 22,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 769,
+    "fields": {
+      "name": "Longbow",
+      "game": "FE7",
+      "description": "Extended attack range",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "D",
+      "wt": 10,
+      "mt": 5,
+      "hit": 65,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 3,
+      "uses": 20,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 770,
+    "fields": {
+      "name": "Steel Bow",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "D",
+      "wt": 9,
+      "mt": 9,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 30,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 771,
+    "fields": {
+      "name": "Killer Bow",
+      "game": "FE7",
+      "description": "Improves critical hit rate.",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "C",
+      "wt": 7,
+      "mt": 9,
+      "hit": 75,
+      "crit": 30,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 20,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 772,
+    "fields": {
+      "name": "Brave Bow",
+      "game": "FE7",
+      "description": "Can strike consecutively",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "B",
+      "wt": 12,
+      "mt": 10,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 30,
+      "weapon_effects": [11, 20]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 773,
+    "fields": {
+      "name": "Silver Bow",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "A",
+      "wt": 6,
+      "mt": 13,
+      "hit": 75,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 20,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 774,
+    "fields": {
+      "name": "Rienfleche",
+      "game": "FE7",
+      "description": "For experienced units only.",
+      "damage_type": "Physical",
+      "weapon_type": "Bow",
+      "rank": "S",
+      "wt": 7,
+      "mt": 20,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 2,
+      "max_range": 2,
+      "uses": 25,
+      "weapon_effects": [11]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 775,
+    "fields": {
+      "name": "Fire",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "E",
+      "wt": 4,
+      "mt": 5,
+      "hit": 90,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 40
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 776,
+    "fields": {
+      "name": "Thunder",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "D",
+      "wt": 6,
+      "mt": 8,
+      "hit": 80,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 35
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 777,
+    "fields": {
+      "name": "Elfire",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "C",
+      "wt": 10,
+      "mt": 10,
+      "hit": 85,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 778,
+    "fields": {
+      "name": "Bolting",
+      "game": "FE7",
+      "description": "Long-range lightning strike",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "B",
+      "wt": 20,
+      "mt": 12,
+      "hit": 60,
+      "crit": 0,
+      "min_range": 3,
+      "max_range": 10,
+      "uses": 5,
+      "weapon_effects": [716]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 779,
+    "fields": {
+      "name": "Fimbulvetr",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "A",
+      "wt": 12,
+      "mt": 13,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 780,
+    "fields": {
+      "name": "Excalibur",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "S",
+      "wt": 13,
+      "mt": 18,
+      "hit": 90,
+      "crit": 10,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 781,
+    "fields": {
+      "name": "Forblaze",
+      "game": "FE7",
+      "description": "Boosts luck by 5 pts.",
+      "damage_type": "Magical",
+      "weapon_type": "Anima",
+      "rank": "Prf",
+      "wt": 11,
+      "mt": 14,
+      "hit": 85,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20,
+      "weapon_effects": [14, 15, 724],
+      "prf_users": [764]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 782,
+    "fields": {
+      "name": "Lightning",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "E",
+      "wt": 6,
+      "mt": 4,
+      "hit": 95,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 35
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 783,
+    "fields": {
+      "name": "Shine",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "D",
+      "wt": 8,
+      "mt": 6,
+      "hit": 90,
+      "crit": 8,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 30
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 784,
+    "fields": {
+      "name": "Divine",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "C",
+      "wt": 12,
+      "mt": 8,
+      "hit": 85,
+      "crit": 10,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 785,
+    "fields": {
+      "name": "Purge",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "B",
+      "wt": 20,
+      "mt": 10,
+      "hit": 75,
+      "crit": 5,
+      "min_range": 3,
+      "max_range": 10,
+      "uses": 5,
+      "weapon_effects": [716]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 786,
+    "fields": {
+      "name": "Aura",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "A",
+      "wt": 15,
+      "mt": 12,
+      "hit": 85,
+      "crit": 15,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 787,
+    "fields": {
+      "name": "Aureola",
+      "game": "FE7",
+      "description": "Boosts resistance by 5 pts.",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "S",
+      "wt": 14,
+      "mt": 15,
+      "hit": 90,
+      "crit": 5,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20,
+      "weapon_effects": [706, 723]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 788,
+    "fields": {
+      "name": "Luce",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Light",
+      "rank": "S",
+      "wt": 16,
+      "mt": 16,
+      "hit": 95,
+      "crit": 25,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 789,
+    "fields": {
+      "name": "Flux",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "D",
+      "wt": 8,
+      "mt": 7,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 45
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 790,
+    "fields": {
+      "name": "Luna",
+      "game": "FE7",
+      "description": "Negates enemy resistance.",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "C",
+      "wt": 12,
+      "mt": 0,
+      "hit": 95,
+      "crit": 20,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 35,
+      "weapon_effects": [731]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 791,
+    "fields": {
+      "name": "Nosferatu",
+      "game": "FE7",
+      "description": "Drains enemy HP into caster.",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "C",
+      "wt": 14,
+      "mt": 10,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20,
+      "weapon_effects": [730]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 792,
+    "fields": {
+      "name": "Eclipse",
+      "game": "FE7",
+      "description": "Reduces enemy HP by half.",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "B",
+      "wt": 12,
+      "mt": 0,
+      "hit": 30,
+      "crit": 0,
+      "min_range": 3,
+      "max_range": 10,
+      "uses": 5,
+      "weapon_effects": [716, 732]
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 793,
+    "fields": {
+      "name": "Fenrir",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "A",
+      "wt": 18,
+      "mt": 15,
+      "hit": 70,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 20
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 794,
+    "fields": {
+      "name": "Gespenst",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "S",
+      "wt": 20,
+      "mt": 23,
+      "hit": 80,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": 25
+    }
+  },
+  {
+    "model": "feaapi.Weapon",
+    "pk": 795,
+    "fields": {
+      "name": "Ereshkigal",
+      "game": "FE7",
+      "description": "",
+      "damage_type": "Magical",
+      "weapon_type": "Dark",
+      "rank": "Prf",
+      "wt": 12,
+      "mt": 20,
+      "hit": 95,
+      "crit": 0,
+      "min_range": 1,
+      "max_range": 2,
+      "uses": -1
+    }
+  }
+]

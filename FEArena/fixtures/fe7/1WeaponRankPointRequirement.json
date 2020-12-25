@@ -1,0 +1,50 @@
+[
+   {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "E",
+      "points_required": 1
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "D",
+      "points_required": 31
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "C",
+      "points_required": 71
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "B",
+      "points_required": 121
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "A",
+      "points_required": 181
+    }
+  },
+  {
+    "model": "feaapi.WeaponRankPointRequirement",
+    "fields": {
+      "game": "FE7",
+      "weapon_rank": "S",
+      "points_required": 251
+    }
+  }
+]
